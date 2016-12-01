@@ -12,7 +12,7 @@ public class SQLite
 
     public static Connection getConnection() {
         try {
-            return DriverManager.getConnection("jdbc:sqlite:/Users/Shadow/Desktop/db.db");
+            return DriverManager.getConnection("jdbc:sqlite:/home/petcare/db.db");
         } catch (SQLException e) {
             e.printStackTrace();
         }
